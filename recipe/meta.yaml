@@ -1,6 +1,6 @@
 {% set name = "elfx86exts" %}
-{% set version = "0.3.0" %}
-{% set sha256 = "fb62570ffbddc63dd218ec4cf14b627791dfe2769790592571e0df71114752d0" %}
+{% set version = "0.4.0" %}
+{% set sha256 = "c4758ac636ab6a44d7cf237cef5369dd14fdc6170973f8dd1123d3b7ce60a95e" %}
 
 package:
   name: {{ name|lower }}
@@ -29,7 +29,7 @@ about:
   license: MIT
   license_family: MIT
   license_file: LICENSE
-  summary: 'Disassemble an ELF binary containing x86 instructions and print out which extensions it uses.'
+  summary: Disassemble an ELF binary containing x86 instructions and print out which extensions it uses.
   doc_url: https://docs.rs/elfx86exts/
   dev_url: https://github.com/pkgw/elfx86exts
 
