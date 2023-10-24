@@ -1,6 +1,6 @@
 {% set name = "elfx86exts" %}
-{% set version = "0.6.1" %}
-{% set sha256 = "ddaa3d9cabb91fb45999fbfb219bf67aec2da6687273b6a908ae66e4eeb6b15a" %}
+{% set version = "0.6.2" %}
+{% set sha256 = "13b797299ddeee1083db1ee48e386886a10c2bc849dc5d9768e29b177acf1428" %}
 
 package:
   name: {{ name|lower }}
